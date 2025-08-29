@@ -21,7 +21,7 @@ while True:
     operation = input(" choose from the displayed menu: ")
     if operation == "Write":
         while True:
-            write = input("input your todos: ")
+            write = input("input your todos,enter Quit when you are done: ")
             if write == "Quit":
                 break
             write(Todos,"a")
